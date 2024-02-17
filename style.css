@@ -48,33 +48,33 @@ html {
     text-align: center;
 }
 
-.navv, .navvv, .van {
-
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    font-family:'Oswald','Lato',sans-serif;
-    color: rgb(33, 29, 29);
-    font-size: 1rem;
-    word-spacing: 90px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-
-}
 
 
 
 nav {
-    
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Adjust spacing as needed */
     height: 60px;
     position: relative;
     background-color: #efefef;
     padding-top: 50px;
-    border-bottom: 1px solid #efefef ;
-}
+    border-bottom: 1px solid #efefef;
+  }
+  
+.navv, .navvv, .van {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Oswald', 'Lato', sans-serif;
+    color: rgb(33, 29, 29);
+    font-size: 1rem;
+    word-spacing: 90px; /* Adjust spacing if needed */
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: auto;
+  }
+  
 
 
 
@@ -209,6 +209,7 @@ nav {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     text-align: center;
+    font-size: 2rem;
 
 }
 
@@ -287,67 +288,45 @@ nav {
 }
 
 .Fourth {
-    padding-top: 125px;
+    
+    
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 125px;
+    
 
 }
 
 .Fourth-Image {
     
-    display: flex;
-    float: left;
-    width: 375px;
-    height: 250px;
-}
+    background-image: url(Logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center left;
 
-.right-side{
-
-    padding-left: 30px;
 
 }
 
-.Fourth-Text{
-
-    font-size: 65px;
-    font-weight: lighter;
-    color: #457b9d;
-    font-family: 'Bebas Neue', sans-serif;
-
+.Fourth-Text {
+    padding-top: 15%;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
 }
 
-.Secondary{
+.Secondary {
+
+    padding-top: 5% ;
+    text-align: justify;
+    width: 700px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 35px;
 }
 
-.Directions {
-    font-family: arial;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px;
-    color: whitesmoke;
-    background-color: #457b9d;
-    border: none;
-    width: 325px;
-    border-radius: 7px;
-    transition: .5s ;
-    margin-top: 15px;
-}
 
-.Directions:hover{
-    transition: .5s;
-    opacity: 75%;
 
-}
-
-.Directions:active{
-    transition: .5s;
-    opacity: 50%;
-}
 
 .footer{
     background:#000;
@@ -401,8 +380,19 @@ nav {
     .footer .row a i{
     margin:0% 3%;
     }
+    .navv {
+        word-spacing: 50px; /* Adjust spacing for smaller screens */
+      }
+      .Logo {
+        margin-left: 5px; /* Adjust margin for smaller screens */
+      }
+  
+  
+        .Fourth-Image,
+        .Fourth-Text, Secondary {
+          width: fit-content;
+        }
     }
 
 
 @media screen and (max-width: 600px){}
-

@@ -91,7 +91,7 @@
  .navbar a {
      float: left;
      position: relative;
-     font-size: 14px;
+     font-size: 20px;
      font-family: 'Oswald', 'Lato', sans-serif;
      ;
      align-items: center;
@@ -109,11 +109,11 @@
  }
 
  .dropdown .dropbtn {
-     font-size: 16px;
+     font-size: 20px;
      border: none;
      outline: none;
      color: white;
-     padding: 14px 16px;
+     padding: 14px 20px;
      background-color: inherit;
      font-family: 'Oswald', 'Lato', sans-serif;
      ;
@@ -139,7 +139,7 @@
  .dropdown-content a {
      float: none;
      color: black;
-     padding: 12px 16px;
+     padding: 12px 51px;
      text-decoration: none;
      display: block;
      text-align: left;

@@ -187,6 +187,7 @@
      border: none;
      border-radius: 8px;
      transition: .5s;
+     cursor: pointer;
 
      padding: 20px;
      margin-top: 35px;

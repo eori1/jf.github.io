@@ -1013,6 +1013,7 @@ footer{
     border: none;
     border-radius: 8px;
     transition: .5s;
+    cursor: pointer;
 
     margin-top: 1rem;
     margin-bottom: 1rem;

@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Martian+Mono:wght@100..800&display=swap')
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+ .example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+
+}
+
+
+.container {
+
+
+    background-image: url(racquets-23_1.webp);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-color: rgb(161, 160, 160);
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: multiply;
+
+
+
+}
+
+.content {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* Adjust spacing as needed */
+    height: 60px;
+    position: relative;
+    background-color: #efefef;
+    padding-top: 50px;
+    border-bottom: 1px solid #efefef;
+}
+
+.navv,
+.navvv,
+.van {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Oswald', 'Lato', sans-serif;
+    color: rgb(33, 29, 29);
+    font-size: 1rem;
+    word-spacing: 90px;
+    /* Adjust spacing if needed */
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+.navbar a {
+    float: left;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Oswald', 'Lato', sans-serif;
+    ;
+    align-items: center;
+    color: rgb(33, 29, 29);
+    text-align: center;
+    padding: 1.7rem;
+    text-decoration: none;
+}
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: 'Oswald', 'Lato', sans-serif;
+    ;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(233, 94, 94);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 45px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+.Landing {
+
+    font-size: 60px;
+    color: #efefef;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+
+}
+
+.Landing_Text {
+
+    font-family: Arial;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #efefef;
+}
+
+.btn {
+
+    font-family: 'Oswald', 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 22px;
+    color: whitesmoke;
+    background-color: navy;
+    border: none;
+    border-radius: 8px;
+    transition: .5s;
+
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.btn:hover {
+
+    color: navy;
+    background-color: whitesmoke;
+
+}
+
+.btn:active {
+
+    transition: 0s;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+.main {
+
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.main2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.main3 {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.Selection {
+
+    padding: 5vh;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.6px;
+}
+
+.Selection_Text {
+
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+}
+
+.s_container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #efefef;
+    padding-bottom: 150px;
+}
+
+.s_container-2 {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+.s_container-3 {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #efefef;
+
+    transition: all 0.5s;
+
+}
+
+.box-2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: all 0.5s;
+
+}
+
+.box-3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: all 0.5s;
+
+}
+
+
+
+
+.Fishis {
+
+    padding: 3rem;
+    object-fit: cover;
+    width: 25rem;
+    height: 35rem;
+}
+
+.ProductName {
+
+    font-family: "Anta", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: .02rem;
+    font-size: 1.5rem;
+
+}
+
+.ProductPrice {
+
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: rgb(125, 125, 125);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 5px;
+
+}
+
+.Item_Desc {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-justify: inter-word;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 0px;
+    transition: all 0.5s;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.box:hover {
+
+    .Item_Desc {
+        line-height: 20px;
+        color: black;
+
+    }
+
+
+}
+
+.box-2:hover {
+
+    .Item_Desc {
+        line-height: 20px;
+        color: black;
+
+    }
+
+
+}
+
+.box-3:hover {
+
+    .Item_Desc {
+        line-height: 20px;
+        color: black;
+
+    }
+
+
+}
+
+.Third {
+
+    overflow: hidden;
+    background-image: url(ViktorAxelsen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(161, 160, 160);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+
+.Third_Text {
+
+    color: #e7f0f8;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 30px;
+
+}
+
+.Fourth {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.Fourth-Image {
+
+    background-image: url(Logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+
+}
+
+.Fourth-Text {
+    padding-top: 15%;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+}
+
+.Secondary {
+
+    padding-top: 5%;
+    text-align: justify;
+    width: 700px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+footer{
+    overflow: hidden;
+}
+
+.footer {
+    background: #000;
+    padding: 10vh;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+
+    .navv {
+        word-spacing: 50px;
+        /* Adjust spacing for smaller screens */
+    }
+
+    .Logo {
+        margin-left: 5px;
+        /* Adjust margin for smaller screens */
+    }
+
+
+    .Fourth-Image,
+    .Fourth-Text,
+    Secondary {
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width: 600px) {}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 720px) {
+    .navvv {
+        display: block;
+        text-align: center;
+    }
+
+    .navv {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .dropdown-content {
+        position: relative;
+    }
+
+    .dropdown-content a {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content a {
+        display: block;
+    }
+}
+
+.astroxx {
+
+
+    background-image: url(Astroxsd.webp);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    background-color: #efefef;
+    background-size: 55%;
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: multiply;
+
+
+
+}
+
+
+.astroxxsd {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+
+
+}
+
+.AstroxText {
+
+    text-align: center;
+    font-size: 5.5rem;
+    letter-spacing: .4rem;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke: 2px rgb(20, 20, 20);
+   text-shadow:
+      3px 3px 0 rgb(20, 20, 20),
+    -1px -1px 0 rgb(20, 20, 20),  
+     1px -1px 0 rgb(20, 20, 20),
+     -1px 1px 0 rgb(20, 20, 20),
+      1px 1px 0 rgb(20, 20, 20);
+    
+
+}
+
+.AstroxText2 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    letter-spacing: .3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: .5px rgb(20, 20, 20);
+   text-shadow:
+      3px 3px 0 rgb(20, 20, 20),
+    -1px -1px 0 rgb(20, 20, 20),  
+     1px -1px 0 rgb(20, 20, 20),
+     -1px 1px 0 rgb(20, 20, 20),
+      1px 1px 0 rgb(20, 20, 20);
+}
+
+.Astroxsd {
+
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+
+}
+
+.ASFourth {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.ASFourth-Image {}
+
+.ASFourth-Text {
+    padding-top: 15%;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+}
+
+.ASSecondary {
+
+    padding-top: 2.75%;
+    text-align: justify;
+    width: 700px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.nanoflaree {
+
+
+   background-image: url(NanoFlareMain.webp);
+   background-repeat: no-repeat;
+   background-position: center left;
+   background-size: contain;
+   background-color: #efefef;
+   background-size: 55%;
+   width: 100vw;
+   height: 100vh;
+   background-blend-mode: multiply;
+
+
+
+}
+
+.nanoflareenx {
+
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   text-align: center;
+
+
+}
+
+.nanoflareText {
+
+   text-align: center;
+   font-size: 5.5rem;
+   color: #efefef;
+   font-family: 'Bebas Neue', sans-serif;
+   -webkit-text-stroke: 1px black;
+   text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+
+}
+
+.nanoflareText2 {
+   font-size: 1.5rem;
+   color: #efefef;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: .7rem;
+   font-weight: bold;
+   -webkit-text-stroke: 1px rgb(20, 20, 20);
+   text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.Astroxsd {
+
+   float: right;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: auto;
+   height: auto;
+
+}
+
+.NNFourth {
+
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+
+
+}
+
+.NNFourth-Image {}
+
+.NNFourth-Text {
+   padding-top: 15%;
+   font-family: "Protest Strike", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90px;
+   text-align: center;
+}
+
+.NNSecondary {
+
+   padding-top: 5%;
+   text-align: justify;
+   width: 700px;
+   font-family: Poppins, Arial, Helvetica, sans-serif;
+   font-size: 1.3rem;
+}
+
+.arcsaberr {
+
+
+   background-image: url(arc7main.webp);
+   background-repeat: no-repeat;
+   background-position: center left;
+   background-size: contain;
+   background-color: #efefef;
+   background-size: 55%;
+   width: 100vw;
+   height: 100vh;
+   background-blend-mode: multiply;
+
+
+
+}
+
+
+.arcsaber {
+
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   text-align: center;
+
+
+}
+
+.ARText {
+
+   text-align: center;
+   font-size: 8rem;
+   color: #49D49D;
+   font-weight: bold;
+   -webkit-text-stroke: 1px black;
+   text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+   font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.ARText2 {
+   font-size: 2rem;
+   color: #fafafa;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: .8rem;
+   -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
+ text-shadow:
+      3px 3px 0 #000,
+   -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+   font-weight: bold;
+}
+
+.Astroxsd {
+
+   float: right;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: auto;
+   height: auto;
+
+}
+
+.ARFourth {
+
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+
+
+}
+
+.ARFourth-Image {}
+
+.ARFourth-Text {
+   padding-top: 15%;
+   font-family: "Protest Strike", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90px;
+   text-align: center;
+}
+
+.ARSecondary {
+
+   padding-top: 5%;
+   text-align: justify;
+   width: 700px;
+   font-family: Poppins, Arial, Helvetica, sans-serif;
+   font-size: 1.3rem;
+   
+}
+
+.break-top{
+    margin-left: 20rem;
+
+}
+
+.break-bottom{
+    margin-right: 20rem;
+
+}
+
+.break-top-2{
+    margin-right: 20rem;
+
+}
+
+.break-bottom-2{
+    margin-left: 20rem;
+
+}
+
+
+.left-side-equip {
+	padding: 10rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+    
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: contain;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.butt{
+    font-family: 'Oswald', 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 22px;
+    color: whitesmoke;
+    background-color: navy;
+    border: none;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.butt:hover {
+
+    color: navy;
+    background-color: whitesmoke;
+
+}
+
+.butt:active {
+
+    transition: 0s;
+    opacity: 0.5;
+
+}
+
+.butt-2{
+    font-family: 'Oswald', 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 16rem;
+    padding-left: 16rem;
+    color: whitesmoke;
+    background-color: navy;
+    border: none;
+    border-radius: 8px;
+    transition: .5s;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.butt-2:hover {
+
+    color: navy;
+    background-color: whitesmoke;
+
+}
+
+.butt-2:active {
+
+    transition: 0s;
+    opacity: 0.5;
+
+}

@@ -985,6 +985,7 @@ footer{
     border: none;
     border-radius: 8px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .butt:hover {
@@ -1014,7 +1015,7 @@ footer{
     border: none;
     border-radius: 8px;
     transition: .5s;
-    cursor: poiter;
+    cursor: pointer;
 
     margin-top: 1rem;
     margin-bottom: 1rem;
